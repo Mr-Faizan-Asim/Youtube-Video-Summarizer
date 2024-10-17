@@ -1,0 +1,13 @@
+prefix=A:/University/Semester 5/AI/Lab/Youtube Video Summarizer/venv/Library
+exec_prefix=A:/University/Semester 5/AI/Lab/Youtube Video Summarizer/venv/Library
+libdir=A:/University/Semester 5/AI/Lab/Youtube Video Summarizer/venv/Library/lib
+sharedlibdir=A:/University/Semester 5/AI/Lab/Youtube Video Summarizer/venv/Library/lib
+includedir=A:/University/Semester 5/AI/Lab/Youtube Video Summarizer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
